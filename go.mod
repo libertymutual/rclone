@@ -1,6 +1,6 @@
 module github.com/rclone/rclone
 
-go 1.18
+go 1.25.0
 
 require (
 	bazil.org/fuse v0.0.0-20221209211307-2abb8038c751
@@ -63,12 +63,12 @@ require (
 	github.com/yunify/qingstor-sdk-go/v3 v3.2.0
 	go.etcd.io/bbolt v1.3.7
 	goftp.io/server v0.4.2-0.20210615155358-d07a820aac35
-	golang.org/x/crypto v0.7.0
-	golang.org/x/net v0.8.0
+	golang.org/x/crypto v0.52.0
+	golang.org/x/net v0.54.0
 	golang.org/x/oauth2 v0.6.0
-	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.6.0
-	golang.org/x/text v0.8.0
+	golang.org/x/sync v0.20.0
+	golang.org/x/sys v0.45.0
+	golang.org/x/text v0.37.0
 	golang.org/x/time v0.3.0
 	google.golang.org/api v0.112.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -146,5 +146,5 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/pkg/xattr v0.4.9
 	golang.org/x/mobile v0.0.0-20230301163155-e0f57694e12c
-	golang.org/x/term v0.6.0
+	golang.org/x/term v0.43.0
 )
