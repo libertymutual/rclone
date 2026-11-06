@@ -1,6 +1,6 @@
 module github.com/rclone/rclone
 
-go 1.18
+go 1.24
 
 require (
 	bazil.org/fuse v0.0.0-20221209211307-2abb8038c751
@@ -26,7 +26,7 @@ require (
 	github.com/dropbox/dropbox-sdk-go-unofficial/v6 v6.0.5
 	github.com/gabriel-vasile/mimetype v1.4.2
 	github.com/gdamore/tcell/v2 v2.6.0
-	github.com/go-chi/chi/v5 v5.0.8
+	github.com/go-chi/chi/v5 v5.4.0
 	github.com/google/uuid v1.3.0
 	github.com/hanwen/go-fuse/v2 v2.2.0
 	github.com/hirochachacha/go-smb2 v1.1.0
